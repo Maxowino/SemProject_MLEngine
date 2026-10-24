@@ -1,0 +1,112 @@
+Question Number,Question,Answer,Category,Difficulty
+87,Explain the principles of least privilege and defense in depth.,Least privilege limits access rights; defense in depth layers security. Both minimize attack surfaces and provide redundancy.,Security,Hard
+202,What is a variable in programming?,A variable is a named storage location used to hold a value that a program can access or change.,Programming Fundamentals,Easy
+229,What is the software development life cycle?,"The software development life cycle is a structured process covering activities such as planning, requirements analysis, design, implementation, testing, deployment, and maintenance.",Software Engineering,Easy
+168,Design a system for efficient storage and retrieval of large-scale time-series data.,"Optimize for write-heavy loads, use time-based partitioning, efficient indexing, and consider data compression techniques.",Database Systems,Hard
+105,What is the difference between SQL and NoSQL databases?,"SQL databases are structured, use SQL, and are better for complex queries. NoSQL databases are flexible, scale well, and are good for hierarchical data storage.",Back-end,Medium
+123,How does indexing improve database query performance?,"Indexing speeds up data retrieval operations by effectively creating a smaller, faster version of the database table.",Back-end,Medium
+204,What is the difference between a compiler and an interpreter?,"A compiler translates a program into another form, often machine code, before execution. An interpreter executes program instructions through an interpreter at runtime.",Programming Fundamentals,Easy
+131,What is continuous integration in DevOps?,Continuous integration is the practice of automating the integration of code changes into a software project.,DevOps,Medium
+27,Discuss the role of a package manager like npm or pip.,"Package managers manage installation, update, and dependency resolution of libraries, simplifying library management in development.",Languages and Frameworks,Hard
+209,What is a database?,"A database is an organized collection of data that can be stored, retrieved, and managed.",Databases,Easy
+134,What are microservices and how do they differ from monolithic architectures?,"Microservices are a software development technique—a variant of the service-oriented architecture architectural style that structures an application as a collection of loosely coupled services. In a monolithic architecture, all components are interconnected and interdependent.",Back-end,Hard
+52,Explain the difference between black-box and white-box testing.,Black-box tests functionality without internal code knowledge; white-box tests internal code logic and structure.,Software Testing,Hard
+211,What is a primary key in a database?,A primary key is a column or combination of columns that uniquely identifies each row in a database table.,Databases,Easy
+172,Write a custom memory allocator for a C++ application.,"Discuss memory pool allocation, handling fragmentation, and optimizing for allocation/deallocation speed.",Low-level Systems,Hard
+119,What are the advantages of using a microservices architecture?,"Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",Back-end,Easy
+46,What is a session in web development?,"A session maintains stateful information across multiple HTTP requests, typically for user authentication and data storage.",Web Development,Medium
+58,"What is load testing, and why is it necessary?","Load testing evaluates system performance under expected load conditions, identifying bottlenecks and scalability issues.",Software Testing,Medium
+93,"What is Kubernetes, and why is it popular in container management?","Kubernetes is an open-source container orchestration platform automating deployment and management, known for its scalability and community support.",DevOps,Medium
+94,Describe the process of continuous integration and continuous delivery (CI/CD).,"CI/CD automates build, test, and deployment processes, delivering code changes rapidly and reliably to production.",DevOps,Hard
+92,Explain the concept of container orchestration.,"Container orchestration automates deployment, scaling, and management of containers, optimizing resource use and handling failures.",DevOps,Medium
+206,What is an algorithm?,An algorithm is a finite sequence of clear steps used to solve a problem or complete a task.,Data Structures and Algorithms,Easy
+222,What is unit testing?,"Unit testing checks a small, isolated part of a program, such as a function or method, to verify that it behaves as expected.",Software Testing,Easy
+22,Describe the MVC architectural pattern.,"MVC divides an application into Model (data), View (UI), and Controller (input handling), promoting separation of concerns.",Languages and Frameworks,Medium
+77,Explain the concept of CAP theorem in distributed systems.,"The CAP theorem states that in a distributed system, you cannot simultaneously guarantee Consistency, Availability, and Partition Tolerance at all times.",System Design,Easy
+215,What is an object in programming?,An object is an instance of a class that can hold data and provide behavior defined by that class.,Object-Oriented Programming,Easy
+216,What is inheritance in object-oriented programming?,Inheritance allows a class to reuse or extend properties and methods from another class.,Object-Oriented Programming,Easy
+108,How do you implement a binary search algorithm?,"Binary search involves repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed the possibilities to just one.",Full-stack,Medium
+104,How would you optimize a website's load time?,"Optimizations can include minimizing HTTP requests, using CDNs, compressing files, caching, etc.",Front-end,Hard
+213,What is object-oriented programming?,Object-oriented programming is a programming approach that organizes software around objects containing data and behavior.,Object-Oriented Programming,Easy
+63,"What is a merge conflict, and how do you resolve it in Git?",Merge conflicts occur when changes in different branches clash. Resolve by manually editing files and committing the result.,Version Control,Medium
+164,Implement Google's PageRank algorithm.,Use graph-based algorithms focusing on eigenvector calculation and iterative approaches.,Algorithms,Hard
+194,Develop a machine learning algorithm to detect fake news on social media.,"Use NLP for text analysis, implement classification algorithms, and consider the challenge of unstructured data.",Machine Learning,Hard
+210,What is SQL used for?,"SQL is a language used to define, query, insert, update, and manage data in relational databases.",Databases,Easy
+214,What is a class in object-oriented programming?,A class is a blueprint that defines the properties and behaviors that its objects can have.,Object-Oriented Programming,Easy
+149,Explain the concept of 'closure' in JavaScript.,A closure is a function that remembers its outer variables and can access them.,Front-end,Medium
+14,What is a linked list and how does it work?,"A linked list is a series of nodes each containing data and a reference to the next node, allowing dynamic memory allocation and efficient insertions/deletions.",Data Structures,Medium
+217,What is encapsulation?,"Encapsulation combines data and related methods in a unit, such as a class, and controls how its internal state is accessed.",Object-Oriented Programming,Easy
+114,What are the benefits of server-side rendering vs client-side rendering?,"Server-side rendering improves initial page load time and SEO, while client-side rendering is good for dynamic websites with less initial loading content.",Front-end,Medium
+219,What is the difference between HTTP and HTTPS?,"HTTPS uses encryption through TLS to protect data exchanged between a client and a server, while HTTP does not provide that transport encryption.",Networking and Web,Easy
+75,Discuss the pros and cons of monolithic vs. microservices architecture.,Monolithic is simple but less scalable; microservices offer scalability and flexibility but are complex to manage.,System Design,Medium
+43,What is CORS (Cross-Origin Resource Sharing)?,"CORS is a security measure allowing or restricting resources requested from another domain, managed via HTTP headers.",Web Development,Medium
+6,What is the purpose of a constructor?,"A constructor initializes object properties upon class instantiation, ensuring a well-defined state.",General Programming,Medium
+208,What is an array?,"An array is a data structure that stores a collection of elements, usually accessed using an index.",Data Structures and Algorithms,Easy
+11,What is the difference between an array and a linked list?,"An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",Data Structures,Easy
+180,Design a fraud detection system for online transactions.,"Use machine learning for anomaly detection, implement rule-based systems for known fraud patterns, ensure real-time processing.",Security,Hard
+201,What is software engineering?,"Software engineering is the systematic process of designing, developing, testing, and maintaining software.",Software Engineering,Easy
+122,Discuss the role of a load balancer in a distributed system.,A load balancer distributes network or application traffic across multiple servers to enhance responsiveness and availability of applications.,DevOps,Medium
+220,What is version control?,Version control tracks changes to files over time and helps developers collaborate and restore earlier versions.,Software Development Tools,Easy
+42,Explain the difference between HTTP and HTTPS.,"HTTP is an unsecured data transmission protocol; HTTPS is secure, encrypting data in transit using SSL/TLS.",Web Development,Medium
+61,"What is Git, and how does it work?","Git is a distributed version control system for tracking changes in source code, allowing collaborative work and branch management.",Version Control,Medium
+39,"What is database denormalization, and when is it appropriate?","Denormalization introduces redundancy for performance, useful in read-heavy scenarios at the expense of storage and complexity.",Database and SQL,Medium
+227,What is an operating system?,An operating system manages computer hardware and provides services that applications use to run.,Operating Systems,Easy
+205,What is debugging?,"Debugging is the process of finding, analyzing, and fixing errors in a program.",Software Testing,Easy
+188,Implement a natural language processing algorithm to understand and answer user queries.,"Use NLP techniques like tokenization, parsing, and deep learning models for understanding and generating responses.",Machine Learning,Hard
+159,Implement a garbage collector for a programming language.,"Understand memory management concepts like mark-and-sweep, reference counting, and generational collection.",Low-level Systems,Hard
+228,What is the purpose of a software requirements document?,"It describes what a software system should do, its constraints, and the needs it must satisfy.",Software Engineering,Easy
+218,What is an API?,An API is an interface that allows software components or applications to communicate using defined rules.,Web Development,Easy
+174,Implement a distributed file system.,"Address challenges in data distribution, replication, fault tolerance, consistency, and performance.",Distributed Systems,Hard
+1,What is the difference between compilation and interpretation?,Compilation translates source code into machine code creating an executable file. Interpretation translates and executes code line by line without an executable.,General Programming,Medium
+226,What is responsive web design?,Responsive web design makes a website adapt its layout to different screen sizes and devices.,Web Development,Easy
+144,Explain the SOLID principles in software engineering.,"SOLID stands for Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles, guiding towards more maintainable, understandable, and flexible software.",Full-stack,Hard
+230,What is the difference between syntax errors and logical errors?,"A syntax error violates the programming language's rules, while a logical error allows a program to run but produces an incorrect result.",Programming Fundamentals,Easy
+223,What is a software bug?,A software bug is a defect that causes a program to behave incorrectly or fail to meet its requirements.,Software Testing,Easy
+225,What is the difference between frontend and backend development?,"Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",Web Development,Easy
+15,Explain the concept of recursion.,"Recursion is when a function calls itself to solve subproblems, with a base case to terminate recursion.",Data Structures,Medium
+152,Implement a function to check if a binary tree is balanced.,Use a recursive function to check the height of each subtree; return false if the difference is more than one.,Algorithms,Hard
+135,Explain the difference between '==' and '===' in JavaScript.,"'==' compares values after type conversion, while '===' compares both value and type.",Front-end,Easy
+198,Implement a quantum algorithm for solving a well-known computational problem.,"Discuss quantum computing principles, qubit manipulation, and specific algorithms like Grover's or Shor's algorithm.",Algorithms,Hard
+197,Create a real-time sports analytics system using sensor data.,"Utilize streaming data processing, machine learning for pattern recognition, and efficient data storage solutions.",Data Engineering,Hard
+181,Implement a distributed graph processing framework.,"Discuss vertex-centric computation, message passing between nodes, and optimizations for large-scale processing.",Distributed Systems,Hard
+99,Explain the role of a configuration management tool like Ansible.,"Configuration management tools automate provisioning and management of software and infrastructure, ensuring consistency and efficiency.",DevOps,Medium
+110,What are microservices and how do they differ from monolithic architectures?,"Microservices are a software development technique—a variant of the service-oriented architecture architectural style that structures an application as a collection of loosely coupled services. In a monolithic architecture, all components are interconnected and interdependent.",Back-end,Medium
+153,Design a URL shortening service like bit.ly.,"Consider efficient hashing, collision resolution, database schema, scalability, and API rate limiting.",System Design,Hard
+16,"What is Big O notation, and why is it important?","Big O notation describes the upper bound of algorithm time complexity, important for comparing efficiency and growth rates.",Data Structures,Medium
+59,Describe the differences between manual and automated testing.,Manual testing is human-driven; suitable for exploratory and UX testing. Automated testing uses tools for repetitive tasks; suitable for regression and performance testing.,Software Testing,Hard
+30,What is a virtual function in C++?,"Virtual functions in C++ allow derived classes to override them, enabling runtime polymorphism and dynamic method dispatch.",Languages and Frameworks,Medium
+200,Build a scalable image processing pipeline for a photo-sharing app.,"Implement distributed processing, efficient storage, and consider ML techniques for feature extraction.",System Design,Hard
+161,Explain the workings of the TCP protocol for a low-latency network.,"Focus on the three-way handshake, congestion control (like TCP Fast Open, and CUBIC), and optimizing for reduced latency.",Networking,Hard
+88,What is a DDoS (Distributed Denial of Service) attack?,"A DDoS attack overwhelms a target with traffic, causing unavailability. Mitigate with DDoS protection, rate limiting, and traffic analysis.",Security,Medium
+49,What is the importance of SEO in web development?,"SEO enhances a website's visibility in search engine results, improving organic traffic and user reach through optimized content and structure.",Web Development,Medium
+109,Describe the MVC architecture.,"MVC architecture stands for Model-View-Controller, separating the application into three interconnected components.",Full-stack,Medium
+45,"What is a cookie, and how does it work?","Cookies are data stored on the user's computer by the web server, sent with HTTP requests for session management, tracking, and storing preferences.",Web Development,Hard
+18,Discuss the advantages and disadvantages of different sorting algorithms.,Sorting algorithms vary in time/space complexity and stability. Quick Sort and Merge Sort are fast but more complex; Insertion and Bubble Sort are simple but slower.,Data Structures,Medium
+3,Define encapsulation and give an example.,"Encapsulation bundles data and methods in a class, restricting direct data access. Example: class with private data and public methods.",General Programming,Hard
+212,What is a foreign key?,"A foreign key is a column or set of columns that references a key in another table, helping establish relationships between tables.",Databases,Easy
+158,Design a chat application that can scale to millions of users.,"Consider websocket protocol for real-time communication, efficient message broadcasting, and scalable backend architecture.",System Design,Hard
+89,How can you secure sensitive data in a mobile app?,"Secure data by encrypting at rest and in transit, using secure authentication, and following best practices.",Security,Medium
+65,"What is a pull request (PR), and how does it work?","A PR is a request to merge code from one branch to another, facilitating code review and discussion before integration.",Version Control,Medium
+173,Design a real-time multiplayer online game architecture.,"Focus on handling high network traffic, efficient state synchronization, latency reduction, and scalability.",System Design,Hard
+107,What is continuous integration in DevOps?,Continuous integration is the practice of automating the integration of code changes into a software project.,DevOps,Medium
+224,What is the purpose of comments in source code?,Comments explain code or provide context for developers and are generally ignored by the program during execution.,Programming Fundamentals,Easy
+166,Optimize database queries for a high-traffic website.,"Focus on indexing, query optimization, using caching, database sharding, and efficient schema design.",Database Systems,Hard
+207,What is a data type?,"A data type defines the kind of value a variable can store, such as an integer, string, Boolean, or floating-point number.",Programming Fundamentals,Easy
+97,Discuss the importance of automated testing in CI/CD pipelines.,"Automated testing in CI/CD ensures code changes are defect-free, enhancing reliability and speeding up delivery.",DevOps,Medium
+221,What is Git?,Git is a distributed version control system used to track changes in files and coordinate software development.,Software Development Tools,Easy
+95,What is infrastructure as code (IaC)?,"IaC manages infrastructure using code, ensuring consistency, automation, and version control in deployments.",DevOps,Easy
+53,What is regression testing?,"Regression testing ensures new code changes don't break existing features, maintaining functionality over updates.",Software Testing,Easy
+154,Design a recommendation system for a large e-commerce platform.,"Use collaborative filtering, content-based filtering, or hybrid methods; consider scalability and real-time processing.",Machine Learning,Hard
+185,Optimize network protocols for a satellite communication system.,"Address latency, data loss, and bandwidth issues; optimize for long-distance and high-latency networks.",Networking,Hard
+141,What is Infrastructure as Code (IaC) and its significance in DevOps?,"IaC is the management of infrastructure (networks, virtual machines, load balancers, etc.) in a descriptive model, using code, which increases development and deployment speed.",DevOps,Hard
+187,Design a scalable and reliable messaging system for a large corporation.,"Utilize message queues (like Kafka, RabbitMQ), ensure fault tolerance, and implement load balancing.",System Design,Hard
+20,What is dynamic programming?,"Dynamic programming solves complex problems by dividing them into smaller subproblems, avoiding redundant calculations.",Data Structures,Hard
+186,Develop an autonomous vehicle's path planning algorithm.,"Implement algorithms considering real-time obstacle avoidance, dynamic path adjustments, and efficient routing.",Algorithms,Hard
+35,How do you optimize a SQL query for better performance?,"Optimize using indexes, efficient SQL, limiting data retrieval, analyzing query performance, and considering denormalization.",Database and SQL,Easy
+37,Explain the difference between INNER JOIN and LEFT JOIN in SQL.,INNER JOIN returns matching rows from both tables; LEFT JOIN returns all rows from the left table and matching rows from the right.,Database and SQL,Medium
+74,What is a CDN (Content Delivery Network)?,"A CDN is a network of servers for delivering content efficiently to users based on geographic proximity, reducing latency and load times.",System Design,Medium
+36,What is normalization in database design?,"Normalization organizes data into separate tables to reduce redundancy and improve integrity, following normalization forms.",Database and SQL,Hard
+203,What is a function in programming?,A function is a reusable block of code that performs a particular task and may accept inputs and return a result.,Programming Fundamentals,Easy
+175,Optimize a search algorithm for a large dataset in a distributed environment.,Implement distributed searching algorithms like MapReduce for scalability and efficiency.,Algorithms,Hard
+25,What is a closure in programming?,A closure is a function with access to its outer scope variables even after the outer function has executed.,Languages and Frameworks,Medium
+78,How do you ensure data consistency in a distributed database?,"Ensure consistency using strong consistency models, two-phase commits, optimistic concurrency control, and conflict resolution strategies.",System Design,Hard
