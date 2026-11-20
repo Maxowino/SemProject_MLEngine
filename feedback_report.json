@@ -1,0 +1,63 @@
+{
+  "career": "Software Engineering",
+  "questions_answered": 1,
+  "average_score": 28.0,
+  "performance_level": "Needs work",
+  "hardest_level_passed": null,
+  "strong_topics": [],
+  "weak_topics": [
+    {
+      "category": "Software Development Tools",
+      "average_score": 28.0
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is Git?",
+      "category": "Software Development Tools",
+      "difficulty": "Easy",
+      "score": 28.0,
+      "verdict": "Needs work",
+      "your_answer": "Version Control",
+      "model_answer": "Git is a distributed version control system used to track changes in files and coordinate software development.",
+      "missing_terms": [
+        "distributed",
+        "track",
+        "changes",
+        "files",
+        "coordinate",
+        "software",
+        "development"
+      ],
+      "feedback": "This answer needs work. Study the model answer and the related questions below.",
+      "study_next": [
+        {
+          "question": "What is version control?",
+          "category": "Software Development Tools",
+          "difficulty": "Easy",
+          "answer": "Version control tracks changes to files over time and helps developers collaborate and restore earlier versions.",
+          "similarity": 0.262
+        },
+        {
+          "question": "What is Git, and how does it work?",
+          "category": "Version Control",
+          "difficulty": "Medium",
+          "answer": "Git is a distributed version control system for tracking changes in source code, allowing collaborative work and branch management.",
+          "similarity": 0.31
+        },
+        {
+          "question": "Explain the difference between Git and SVN (Subversion).",
+          "category": "Version Control",
+          "difficulty": "Hard",
+          "answer": "Git is distributed, with local repository copies; SVN is centralized, requiring network connectivity for repository access.",
+          "similarity": 0.184
+        }
+      ]
+    }
+  ],
+  "study_plan": [
+    "Revise Software Development Tools (average 28%). Practise: What is version control?; What is Git, and how does it work?; Explain the difference between Git and SVN (Subversion)."
+  ],
+  "summary": "You answered 1 Software Engineering questions with an average score of 28.0% (Needs work). Revise these first: Software Development Tools.",
+  "generated_by": "offline rules + retrieved context"
+}
