@@ -1,11 +1,54 @@
 {
-  "career": "Software Engineering",
+  "career": "Web Development",
   "finished": true,
-  "questions_answered": 0,
-  "average_score": 0,
-  "scores": [],
-  "questions": [],
-  "average_by_category": {},
-  "weak_answers": [],
-  "log": []
+  "questions_answered": 2,
+  "average_score": 11.0,
+  "scores": [
+    14.0,
+    8.0
+  ],
+  "questions": [
+    "What is the difference between HTTP and HTTPS?",
+    "What is the difference between frontend and backend development?"
+  ],
+  "average_by_category": {
+    "Networking and Web": 14.0,
+    "Web Development": 8.0
+  },
+  "weak_answers": [
+    {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "category": "Networking and Web",
+      "difficulty": "Easy",
+      "user_answer": "HTTP is less secure while HTTPS is more secure",
+      "expected_answer": "HTTPS uses encryption through TLS to protect data exchanged between a client and a server, while HTTP does not provide that transport encryption.",
+      "score": 14.0
+    },
+    {
+      "question": "What is the difference between frontend and backend development?",
+      "category": "Web Development",
+      "difficulty": "Easy",
+      "user_answer": "Frontend involves user Interface design and User Experience",
+      "expected_answer": "Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",
+      "score": 8.0
+    }
+  ],
+  "log": [
+    {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "category": "Networking and Web",
+      "difficulty": "Easy",
+      "user_answer": "HTTP is less secure while HTTPS is more secure",
+      "expected_answer": "HTTPS uses encryption through TLS to protect data exchanged between a client and a server, while HTTP does not provide that transport encryption.",
+      "score": 14.0
+    },
+    {
+      "question": "What is the difference between frontend and backend development?",
+      "category": "Web Development",
+      "difficulty": "Easy",
+      "user_answer": "Frontend involves user Interface design and User Experience",
+      "expected_answer": "Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",
+      "score": 8.0
+    }
+  ]
 }
