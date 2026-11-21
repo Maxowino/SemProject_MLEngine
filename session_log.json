@@ -1,35 +1,46 @@
 {
   "career": "Software Engineering",
   "finished": true,
-  "questions_answered": 1,
-  "average_score": 28.0,
+  "questions_answered": 2,
+  "average_score": 49.5,
   "scores": [
-    28.0
+    56.0,
+    43.0
   ],
   "questions": [
-    "What is Git?"
+    "What is debugging?",
+    "What is the difference between an array and a linked list?"
   ],
   "average_by_category": {
-    "Software Development Tools": 28.0
+    "Software Testing": 56.0,
+    "Data Structures": 43.0
   },
   "weak_answers": [
     {
-      "question": "What is Git?",
-      "category": "Software Development Tools",
+      "question": "What is the difference between an array and a linked list?",
+      "category": "Data Structures",
       "difficulty": "Easy",
-      "user_answer": "Version Control",
-      "expected_answer": "Git is a distributed version control system used to track changes in files and coordinate software development.",
-      "score": 28.0
+      "user_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
+      "expected_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
+      "score": 43.0
     }
   ],
   "log": [
     {
-      "question": "What is Git?",
-      "category": "Software Development Tools",
+      "question": "What is debugging?",
+      "category": "Software Testing",
       "difficulty": "Easy",
-      "user_answer": "Version Control",
-      "expected_answer": "Git is a distributed version control system used to track changes in files and coordinate software development.",
-      "score": 28.0
+      "user_answer": "The process of finding, isolating , and fixing errors known as bugs in software code or hardware system so they work as intended",
+      "expected_answer": "Debugging is the process of finding, analyzing, and fixing errors in a program.",
+      "score": 56.0
+    },
+    {
+      "question": "What is the difference between an array and a linked list?",
+      "category": "Data Structures",
+      "difficulty": "Easy",
+      "user_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
+      "expected_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
+      "score": 43.0
     }
   ]
 }

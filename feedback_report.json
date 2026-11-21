@@ -1,63 +1,102 @@
 {
   "career": "Software Engineering",
-  "questions_answered": 1,
-  "average_score": 28.0,
+  "questions_answered": 2,
+  "average_score": 49.5,
   "performance_level": "Needs work",
-  "hardest_level_passed": null,
+  "hardest_level_passed": "Easy",
   "strong_topics": [],
   "weak_topics": [
     {
-      "category": "Software Development Tools",
-      "average_score": 28.0
+      "category": "Data Structures",
+      "average_score": 43.0
     }
   ],
   "questions": [
     {
-      "question": "What is Git?",
-      "category": "Software Development Tools",
+      "question": "What is debugging?",
+      "category": "Software Testing",
       "difficulty": "Easy",
-      "score": 28.0,
-      "verdict": "Needs work",
-      "your_answer": "Version Control",
-      "model_answer": "Git is a distributed version control system used to track changes in files and coordinate software development.",
+      "score": 56.0,
+      "verdict": "Partly correct",
+      "your_answer": "The process of finding, isolating , and fixing errors known as bugs in software code or hardware system so they work as intended",
+      "model_answer": "Debugging is the process of finding, analyzing, and fixing errors in a program.",
       "missing_terms": [
-        "distributed",
-        "track",
-        "changes",
-        "files",
-        "coordinate",
-        "software",
-        "development"
+        "debugging",
+        "analyzing",
+        "program"
+      ],
+      "feedback": "Partly correct. Add the missing key terms and compare your answer with the model answer.",
+      "study_next": [
+        {
+          "question": "What is a software bug?",
+          "category": "Software Testing",
+          "difficulty": "Easy",
+          "answer": "A software bug is a defect that causes a program to behave incorrectly or fail to meet its requirements.",
+          "similarity": 0.031
+        },
+        {
+          "question": "What is unit testing?",
+          "category": "Software Testing",
+          "difficulty": "Easy",
+          "answer": "Unit testing checks a small, isolated part of a program, such as a function or method, to verify that it behaves as expected.",
+          "similarity": 0.031
+        },
+        {
+          "question": "What is unit testing, and why is it important?",
+          "category": "Software Testing",
+          "difficulty": "Medium",
+          "answer": "Unit testing evaluates individual code components, ensuring correctness and facilitating early defect detection.",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between an array and a linked list?",
+      "category": "Data Structures",
+      "difficulty": "Easy",
+      "score": 43.0,
+      "verdict": "Needs work",
+      "your_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
+      "model_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
+      "missing_terms": [
+        "fixed",
+        "size",
+        "contiguous",
+        "consists",
+        "nodes",
+        "data",
+        "references",
+        "allowing"
       ],
       "feedback": "This answer needs work. Study the model answer and the related questions below.",
       "study_next": [
         {
-          "question": "What is version control?",
-          "category": "Software Development Tools",
-          "difficulty": "Easy",
-          "answer": "Version control tracks changes to files over time and helps developers collaborate and restore earlier versions.",
-          "similarity": 0.262
-        },
-        {
-          "question": "What is Git, and how does it work?",
-          "category": "Version Control",
+          "question": "What is a linked list and how does it work?",
+          "category": "Data Structures",
           "difficulty": "Medium",
-          "answer": "Git is a distributed version control system for tracking changes in source code, allowing collaborative work and branch management.",
-          "similarity": 0.31
+          "answer": "A linked list is a series of nodes each containing data and a reference to the next node, allowing dynamic memory allocation and efficient insertions/deletions.",
+          "similarity": 0.308
         },
         {
-          "question": "Explain the difference between Git and SVN (Subversion).",
-          "category": "Version Control",
+          "question": "Explain how a hash table works.",
+          "category": "Data Structures",
+          "difficulty": "Medium",
+          "answer": "A hash table uses a hash function to map keys to values in an array, allowing fast O(1) access.",
+          "similarity": 0.06
+        },
+        {
+          "question": "Explain the time complexity of an algorithm.",
+          "category": "Data Structures",
           "difficulty": "Hard",
-          "answer": "Git is distributed, with local repository copies; SVN is centralized, requiring network connectivity for repository access.",
-          "similarity": 0.184
+          "answer": "Time complexity measures the time an algorithm takes relative to its input size, expressed in Big O notation.",
+          "similarity": 0.05
         }
       ]
     }
   ],
   "study_plan": [
-    "Revise Software Development Tools (average 28%). Practise: What is version control?; What is Git, and how does it work?; Explain the difference between Git and SVN (Subversion)."
+    "Revise Data Structures (average 43%). Practise: What is a linked list and how does it work?; Explain how a hash table works.; Explain the time complexity of an algorithm."
   ],
-  "summary": "You answered 1 Software Engineering questions with an average score of 28.0% (Needs work). Revise these first: Software Development Tools.",
+  "summary": "You answered 2 Software Engineering questions with an average score of 49.5% (Needs work). The hardest level you answered well was Easy. Revise these first: Data Structures.",
   "generated_by": "offline rules + retrieved context"
 }
