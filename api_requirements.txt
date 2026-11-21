@@ -1,0 +1,6 @@
+flask>=3.0
+pandas
+numpy
+scikit-learn
+# optional, only for the LLM summary:
+# anthropic
