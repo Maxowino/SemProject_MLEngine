@@ -1,46 +1,72 @@
 {
-  "career": "Software Engineering",
+  "career": "Web Development",
   "finished": true,
-  "questions_answered": 2,
-  "average_score": 49.5,
+  "questions_answered": 3,
+  "average_score": 0.0,
   "scores": [
-    56.0,
-    43.0
+    0.0,
+    0.0,
+    0.0
   ],
   "questions": [
-    "What is debugging?",
-    "What is the difference between an array and a linked list?"
+    "What is the difference between frontend and backend development?",
+    "What is an API?",
+    "What are the advantages of using a microservices architecture?"
   ],
   "average_by_category": {
-    "Software Testing": 56.0,
-    "Data Structures": 43.0
+    "Web Development": 0.0,
+    "Back-end": 0.0
   },
   "weak_answers": [
     {
-      "question": "What is the difference between an array and a linked list?",
-      "category": "Data Structures",
+      "question": "What is the difference between frontend and backend development?",
+      "category": "Web Development",
       "difficulty": "Easy",
-      "user_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
-      "expected_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
-      "score": 43.0
+      "user_answer": "none",
+      "expected_answer": "Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",
+      "score": 0.0
+    },
+    {
+      "question": "What is an API?",
+      "category": "Web Development",
+      "difficulty": "Easy",
+      "user_answer": "None",
+      "expected_answer": "An API is an interface that allows software components or applications to communicate using defined rules.",
+      "score": 0.0
+    },
+    {
+      "question": "What are the advantages of using a microservices architecture?",
+      "category": "Back-end",
+      "difficulty": "Easy",
+      "user_answer": "None",
+      "expected_answer": "Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",
+      "score": 0.0
     }
   ],
   "log": [
     {
-      "question": "What is debugging?",
-      "category": "Software Testing",
+      "question": "What is the difference between frontend and backend development?",
+      "category": "Web Development",
       "difficulty": "Easy",
-      "user_answer": "The process of finding, isolating , and fixing errors known as bugs in software code or hardware system so they work as intended",
-      "expected_answer": "Debugging is the process of finding, analyzing, and fixing errors in a program.",
-      "score": 56.0
+      "user_answer": "none",
+      "expected_answer": "Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",
+      "score": 0.0
     },
     {
-      "question": "What is the difference between an array and a linked list?",
-      "category": "Data Structures",
+      "question": "What is an API?",
+      "category": "Web Development",
       "difficulty": "Easy",
-      "user_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
-      "expected_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
-      "score": 43.0
+      "user_answer": "None",
+      "expected_answer": "An API is an interface that allows software components or applications to communicate using defined rules.",
+      "score": 0.0
+    },
+    {
+      "question": "What are the advantages of using a microservices architecture?",
+      "category": "Back-end",
+      "difficulty": "Easy",
+      "user_answer": "None",
+      "expected_answer": "Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",
+      "score": 0.0
     }
   ]
 }

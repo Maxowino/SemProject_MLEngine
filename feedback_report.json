@@ -1,102 +1,154 @@
 {
-  "career": "Software Engineering",
-  "questions_answered": 2,
-  "average_score": 49.5,
+  "career": "Web Development",
+  "questions_answered": 3,
+  "average_score": 0.0,
   "performance_level": "Needs work",
-  "hardest_level_passed": "Easy",
+  "hardest_level_passed": null,
   "strong_topics": [],
   "weak_topics": [
     {
-      "category": "Data Structures",
-      "average_score": 43.0
+      "category": "Web Development",
+      "average_score": 0.0
+    },
+    {
+      "category": "Back-end",
+      "average_score": 0.0
     }
   ],
   "questions": [
     {
-      "question": "What is debugging?",
-      "category": "Software Testing",
+      "question": "What is the difference between frontend and backend development?",
+      "category": "Web Development",
       "difficulty": "Easy",
-      "score": 56.0,
-      "verdict": "Partly correct",
-      "your_answer": "The process of finding, isolating , and fixing errors known as bugs in software code or hardware system so they work as intended",
-      "model_answer": "Debugging is the process of finding, analyzing, and fixing errors in a program.",
+      "score": 0.0,
+      "verdict": "Needs work",
+      "your_answer": "none",
+      "model_answer": "Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.",
       "missing_terms": [
-        "debugging",
-        "analyzing",
-        "program"
+        "frontend",
+        "development",
+        "focuses",
+        "parts",
+        "application",
+        "users",
+        "interact",
+        "backend"
       ],
-      "feedback": "Partly correct. Add the missing key terms and compare your answer with the model answer.",
+      "feedback": "This answer needs work. Study the model answer and the related questions below.",
       "study_next": [
         {
-          "question": "What is a software bug?",
-          "category": "Software Testing",
-          "difficulty": "Easy",
-          "answer": "A software bug is a defect that causes a program to behave incorrectly or fail to meet its requirements.",
-          "similarity": 0.031
-        },
-        {
-          "question": "What is unit testing?",
-          "category": "Software Testing",
-          "difficulty": "Easy",
-          "answer": "Unit testing checks a small, isolated part of a program, such as a function or method, to verify that it behaves as expected.",
-          "similarity": 0.031
-        },
-        {
-          "question": "What is unit testing, and why is it important?",
-          "category": "Software Testing",
+          "question": "Describe the purpose of a web server like Apache or Nginx.",
+          "category": "Web Development",
           "difficulty": "Medium",
-          "answer": "Unit testing evaluates individual code components, ensuring correctness and facilitating early defect detection.",
+          "answer": "Web servers handle HTTP requests, serve content, manage security, routing, and can act as reverse proxies for application servers.",
+          "similarity": 0.045
+        },
+        {
+          "question": "Describe the differences between GET and POST requests.",
+          "category": "Web Development",
+          "difficulty": "Medium",
+          "answer": "GET requests retrieve data and include parameters in the URL; POST requests send data to the server, encapsulating data in the request body.",
+          "similarity": 0.045
+        },
+        {
+          "question": "What is a session in web development?",
+          "category": "Web Development",
+          "difficulty": "Medium",
+          "answer": "A session maintains stateful information across multiple HTTP requests, typically for user authentication and data storage.",
+          "similarity": 0.041
+        }
+      ]
+    },
+    {
+      "question": "What is an API?",
+      "category": "Web Development",
+      "difficulty": "Easy",
+      "score": 0.0,
+      "verdict": "Needs work",
+      "your_answer": "None",
+      "model_answer": "An API is an interface that allows software components or applications to communicate using defined rules.",
+      "missing_terms": [
+        "interface",
+        "software",
+        "components",
+        "applications",
+        "communicate",
+        "defined",
+        "rules"
+      ],
+      "feedback": "This answer needs work. Study the model answer and the related questions below.",
+      "study_next": [
+        {
+          "question": "Explain the difference between HTTP and HTTPS.",
+          "category": "Web Development",
+          "difficulty": "Medium",
+          "answer": "HTTP is an unsecured data transmission protocol; HTTPS is secure, encrypting data in transit using SSL/TLS.",
+          "similarity": 0.014
+        },
+        {
+          "question": "Explain the concept of responsive web design.",
+          "category": "Web Development",
+          "difficulty": "Medium",
+          "answer": "Responsive design ensures web content functions across different devices and screen sizes, using CSS media queries and flexible layouts.",
+          "similarity": 0.013
+        },
+        {
+          "question": "What is the Document Object Model (DOM)?",
+          "category": "Web Development",
+          "difficulty": "Hard",
+          "answer": "The DOM is a tree-like representation of a web page's structure, allowing manipulation of content, structure, and style via programming languages.",
           "similarity": 0.0
         }
       ]
     },
     {
-      "question": "What is the difference between an array and a linked list?",
-      "category": "Data Structures",
+      "question": "What are the advantages of using a microservices architecture?",
+      "category": "Back-end",
       "difficulty": "Easy",
-      "score": 43.0,
+      "score": 0.0,
       "verdict": "Needs work",
-      "your_answer": "array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory",
-      "model_answer": "An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.",
+      "your_answer": "None",
+      "model_answer": "Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.",
       "missing_terms": [
-        "fixed",
-        "size",
-        "contiguous",
-        "consists",
-        "nodes",
-        "data",
-        "references",
-        "allowing"
+        "advantages",
+        "include",
+        "easier",
+        "scalability",
+        "flexibility",
+        "choosing",
+        "technology",
+        "better"
       ],
       "feedback": "This answer needs work. Study the model answer and the related questions below.",
       "study_next": [
         {
-          "question": "What is a linked list and how does it work?",
-          "category": "Data Structures",
+          "question": "What are microservices and how do they differ from monolithic architectures?",
+          "category": "Back-end",
           "difficulty": "Medium",
-          "answer": "A linked list is a series of nodes each containing data and a reference to the next node, allowing dynamic memory allocation and efficient insertions/deletions.",
-          "similarity": 0.308
+          "answer": "Microservices are a software development technique\u00e2\u20ac\u201da variant of the service-oriented architecture architectural style that structures an application as a collection of loosely coupled services. In a monolithic architecture, all components are interconnected and interdependent.",
+          "similarity": 0.059
         },
         {
-          "question": "Explain how a hash table works.",
-          "category": "Data Structures",
+          "question": "What is the difference between SQL and NoSQL databases?",
+          "category": "Back-end",
           "difficulty": "Medium",
-          "answer": "A hash table uses a hash function to map keys to values in an array, allowing fast O(1) access.",
-          "similarity": 0.06
+          "answer": "SQL databases are structured, use SQL, and are better for complex queries. NoSQL databases are flexible, scale well, and are good for hierarchical data storage.",
+          "similarity": 0.025
         },
         {
-          "question": "Explain the time complexity of an algorithm.",
-          "category": "Data Structures",
-          "difficulty": "Hard",
-          "answer": "Time complexity measures the time an algorithm takes relative to its input size, expressed in Big O notation.",
-          "similarity": 0.05
+          "question": "How do NoSQL databases handle data scaling compared to traditional SQL databases?",
+          "category": "Back-end",
+          "difficulty": "Medium",
+          "answer": "NoSQL databases are generally more scalable and provide superior performance for large-scale applications due to their flexibility in handling unstructured data.",
+          "similarity": 0.024
         }
       ]
     }
   ],
   "study_plan": [
-    "Revise Data Structures (average 43%). Practise: What is a linked list and how does it work?; Explain how a hash table works.; Explain the time complexity of an algorithm."
+    "Revise Web Development (average 0%). Practise: Describe the purpose of a web server like Apache or Nginx.; Describe the differences between GET and POST requests.; What is a session in web development?",
+    "Revise Back-end (average 0%). Practise: What are microservices and how do they differ from monolithic architectures?; What is the difference between SQL and NoSQL databases?; How do NoSQL databases handle data scaling compared to traditional SQL databases?"
   ],
-  "summary": "You answered 2 Software Engineering questions with an average score of 49.5% (Needs work). The hardest level you answered well was Easy. Revise these first: Data Structures.",
-  "generated_by": "offline rules + retrieved context"
+  "summary": "You answered 3 Web Development questions with an average score of 0.0% (Needs work). Revise these first: Web Development, Back-end.",
+  "generated_by": " rules +  context"
 }

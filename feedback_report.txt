@@ -1,33 +1,44 @@
 ================================================================
-INTERVIEW FEEDBACK: Software Engineering
+INTERVIEW FEEDBACK: Web Development
 ================================================================
-Average score: 49.5%  |  Level: Needs work  |  Answers: 2
+Average score: 0.0%  |  Level: Needs work  |  Answers: 3
 
-You answered 2 Software Engineering questions with an average score of 49.5% (Needs work). The hardest level you answered well was Easy. Revise these first: Data Structures.
+You answered 3 Web Development questions with an average score of 0.0% (Needs work). Revise these first: Web Development, Back-end.
 
 STUDY PLAN
-  1. Revise Data Structures (average 43%). Practise: What is a linked list and how does it work?; Explain how a hash table works.; Explain the time complexity of an algorithm.
+  1. Revise Web Development (average 0%). Practise: Describe the purpose of a web server like Apache or Nginx.; Describe the differences between GET and POST requests.; What is a session in web development?
+  2. Revise Back-end (average 0%). Practise: What are microservices and how do they differ from monolithic architectures?; What is the difference between SQL and NoSQL databases?; How do NoSQL databases handle data scaling compared to traditional SQL databases?
 
 QUESTION BY QUESTION
 ----------------------------------------------------------------
-1. [Easy] What is debugging?
-   Score: 56/100 (Partly correct)
-   Your answer: The process of finding, isolating , and fixing errors known as bugs in software code or hardware system so they work as intended
-   Feedback: Partly correct. Add the missing key terms and compare your answer with the model answer.
-   Missing key terms: debugging, analyzing, program
-   Model answer: Debugging is the process of finding, analyzing, and fixing errors in a program.
-   Study next: What is a software bug? (Software Testing, Easy, similarity 0.031)
-   Study next: What is unit testing? (Software Testing, Easy, similarity 0.031)
-   Study next: What is unit testing, and why is it important? (Software Testing, Medium, similarity 0.0)
-----------------------------------------------------------------
-2. [Easy] What is the difference between an array and a linked list?
-   Score: 43/100 (Needs work)
-   Your answer: array stores elements in conitguous side by side memory location while linked list stores elements in scattered memory
+1. [Easy] What is the difference between frontend and backend development?
+   Score: 0/100 (Needs work)
+   Your answer: none
    Feedback: This answer needs work. Study the model answer and the related questions below.
-   Missing key terms: fixed, size, contiguous, consists, nodes, data, references, allowing
-   Model answer: An array has fixed size and stores elements in contiguous memory; a linked list consists of nodes with data and references, allowing dynamic size.
-   Study next: What is a linked list and how does it work? (Data Structures, Medium, similarity 0.308)
-   Study next: Explain how a hash table works. (Data Structures, Medium, similarity 0.06)
-   Study next: Explain the time complexity of an algorithm. (Data Structures, Hard, similarity 0.05)
+   Missing key terms: frontend, development, focuses, parts, application, users, interact, backend
+   Model answer: Frontend development focuses on the parts of an application users interact with, while backend development handles server-side logic, data processing, and services.
+   Study next: Describe the purpose of a web server like Apache or Nginx. (Web Development, Medium, similarity 0.045)
+   Study next: Describe the differences between GET and POST requests. (Web Development, Medium, similarity 0.045)
+   Study next: What is a session in web development? (Web Development, Medium, similarity 0.041)
+----------------------------------------------------------------
+2. [Easy] What is an API?
+   Score: 0/100 (Needs work)
+   Your answer: None
+   Feedback: This answer needs work. Study the model answer and the related questions below.
+   Missing key terms: interface, software, components, applications, communicate, defined, rules
+   Model answer: An API is an interface that allows software components or applications to communicate using defined rules.
+   Study next: Explain the difference between HTTP and HTTPS. (Web Development, Medium, similarity 0.014)
+   Study next: Explain the concept of responsive web design. (Web Development, Medium, similarity 0.013)
+   Study next: What is the Document Object Model (DOM)? (Web Development, Hard, similarity 0.0)
+----------------------------------------------------------------
+3. [Easy] What are the advantages of using a microservices architecture?
+   Score: 0/100 (Needs work)
+   Your answer: None
+   Feedback: This answer needs work. Study the model answer and the related questions below.
+   Missing key terms: advantages, include, easier, scalability, flexibility, choosing, technology, better
+   Model answer: Advantages include easier scalability, flexibility in choosing technology, better fault isolation, and improved continuous deployment.
+   Study next: What are microservices and how do they differ from monolithic architectures? (Back-end, Medium, similarity 0.059)
+   Study next: What is the difference between SQL and NoSQL databases? (Back-end, Medium, similarity 0.025)
+   Study next: How do NoSQL databases handle data scaling compared to traditional SQL databases? (Back-end, Medium, similarity 0.024)
 
-Generated by: offline rules + retrieved context
+Generated by:  rules +  context

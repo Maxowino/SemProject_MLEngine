@@ -2,8 +2,7 @@
 engine.py - KNN + RAG logic for the Flask API.
 
 Ported from KNN_model.ipynb and RAG_feedback.ipynb so the API does not depend on the notebooks.
-Safe for the VS Code demo: this module only READS data/expanded_software_questions.csv,
-and it never writes files and never touches knn_model.joblib or session_log.json.
+this module only READS data/expanded_software_questions.csv,
 """
 import os
 import re
@@ -16,9 +15,9 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 
-# --------------------------------------------------------------------------------------
+
 # Settings
-# --------------------------------------------------------------------------------------
+
 DATA_FILE = Path(os.getenv("QUESTIONS_CSV",
                            Path(__file__).resolve().parent / "data" / "expanded_software_questions.csv"))
 DIFFICULTY_LEVELS = ["Easy", "Medium", "Hard"]
@@ -49,9 +48,9 @@ def _normalize(text):
     return " ".join(str(text).casefold().split())
 
 
-# --------------------------------------------------------------------------------------
+
 # Dataset + models (built once, at import)
-# --------------------------------------------------------------------------------------
+
 def _load_dataset():
     if not DATA_FILE.exists():
         raise FileNotFoundError(f"Dataset not found: {DATA_FILE}")
